@@ -14,3 +14,22 @@ docker pull jondkelley/container_that_quits_randomly:latest
 docker run -e SLEEPYTIME=0 -e EXITCODE=1 -it container_that_quits_randomly:latest
 ```
 
+or
+
+```
+make build
+make push
+```
+
+## Run
+
+```
+docker run -e SLEEPYTIME=0 -e EXITCODE=1 -it container_that_quits_randomly:latest
+```
+
+or
+
+```
+make run
+```
+
